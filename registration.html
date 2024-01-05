@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        label{
+            font-size: 20px;
+           
+        }
+        input{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(211, 184, 184);">
+    <h1 style="text-align: center; font-size: 40px; background-color: rgb(21, 170, 68);">Registration Form</h1>
+    <form>
+        <fieldset>
+           <legend>data</legend> 
+    <Label for="name">Name:</Label>
+    <input type="text" id="name" name="name" required><br><br>
+    <Label for="email">Email:</Label>
+    <input type="text" id="email" name="email" required><br><br>
+    <Label for="phone">phone no:</Label>
+    <input type="text" id="phone" name="phone" maxlength="10"><br><br>
+    <Label for="branch">Branch:</Label>
+    <select name="text" id="text">
+        <option value="select">Select</option>
+        <option value="CSSE">CSSE</option>
+        <option value="CSE(CS)">CSE(CS)</option>
+        <option value="CSBS">CSBS</option>
+    </select><br><br>
+    <label for="section" >Section:</label><br>
+    <label for="section" style="margin-left: 30px;" >A</label>
+    <input type="radio" id="section" name="section"><br>
+    <label for="section" style="margin-left: 30px;">B</label>
+    <input type="radio" id="section" name="section"><br>
+    <label for="section" style="margin-left: 30px;">C</label>
+    <input type="radio" id="section" name="section"><br>
+    <label for="section" style="margin-left: 30px;">D</label>
+    <input type="radio" id="section" name="section"><br><br>
+    <label for="fav course" >Choose the Courses:</label><br>
+    <input type="checkbox" id="C" name="C" value="C">
+    <label for="fav course" >C</label><br>
+    <input type="checkbox" id="java" name="java" value="java">
+    <label for="fav course" >JAVA</label><br>
+    <input type="checkbox" id="html" name="html" value="html">
+    <label for="fav course" >HTML</label><br>
+    <input type="checkbox" id="python" name="python" value="python">
+    <label for="fav course" >PYTHON</label><br>
+
+    <br>
+    <button type ="submit" onclick="alert('check the details')" style="font-size: 20px;"> Submit</button>
+    <input type="reset">
+</fieldset>
+</form>
+
+</body>
+</html>
